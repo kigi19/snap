@@ -1,0 +1,932 @@
+{
+    "lens_id": "",
+    "version": "1",
+    "lastChanged": "1544101562027",
+    "preview": "icon.png",
+    "isReadOnly": "false",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Internal",
+            "major": "1",
+            "minor": "6",
+            "patch": "1",
+            "build": "1"
+        },
+        "lastSavedWith": {
+            "type": "Internal",
+            "major": "1",
+            "minor": "6",
+            "patch": "1",
+            "build": "1"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "Blank Material"
+                    ],
+                    [
+                        "CollageController"
+                    ],
+                    [
+                        "Default",
+                        "Camera Output"
+                    ],
+                    [
+                        "Default",
+                        "Orthographic Camera Output"
+                    ],
+                    [
+                        "Default Textures",
+                        "Base"
+                    ],
+                    [
+                        "Default Textures",
+                        "MaterialParams"
+                    ],
+                    [
+                        "Default Textures",
+                        "Normal"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Resources",
+                        "Screens",
+                        "GameScreen",
+                        "ready_english"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Resources",
+                        "Screens",
+                        "TitleScreen",
+                        "8-8-transparent"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Resources",
+                        "Screens",
+                        "TitleScreen",
+                        "Loader"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Resources",
+                        "Screens",
+                        "TitleScreen",
+                        "LoaderMaterial"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Resources",
+                        "Screens",
+                        "TitleScreen",
+                        "grayBackground"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Resources",
+                        "Screens",
+                        "gaussBlur",
+                        "gausBlurHorz"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Resources",
+                        "Screens",
+                        "gaussBlur",
+                        "gausBlurVert"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Scripts"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Scripts",
+                        "CamAspect"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Scripts",
+                        "TitleScreenContentController"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Scripts",
+                        "TitleScreenController"
+                    ],
+                    [
+                        "SnappablesTemplate",
+                        "Scripts",
+                        "Util"
+                    ],
+                    [
+                        "Tween",
+                        "Tween"
+                    ],
+                    [
+                        "Tween",
+                        "TweenManager"
+                    ],
+                    [
+                        "animation"
+                    ],
+                    [
+                        "blank_texture"
+                    ],
+                    [
+                        "collage_logo"
+                    ],
+                    [
+                        "collage_name"
+                    ],
+                    [
+                        "debug_texture"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                [
+                    "1543925695139102:19350"
+                ]
+            ]
+        },
+        "MetaInfoUIComponent": {
+            "icon_hash": "70338ddfd11813234d3db0e1d81b74d0",
+            "icon_path": "icon.png",
+            "hints": [
+                ""
+            ],
+            "lens": "Untitled",
+            "camera": "2",
+            "lens_descriptors": [
+                "SNAPPABLE"
+            ]
+        },
+        "PreviewUiComponent": {
+            "is_back_camera": "true"
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                ""
+            ]
+        },
+        "LayerUiComponent": {
+            "colorMap": [
+                {
+                    "k": "2",
+                    "v": "4"
+                },
+                {
+                    "k": "3",
+                    "v": "2"
+                }
+            ]
+        }
+    },
+    "model": {
+        "ResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0",
+                    "type": "1",
+                    "subtype": "1"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0",
+                    "type": "1",
+                    "subtype": "3"
+                },
+                {
+                    "resId": "10",
+                    "uid": "1543925748100307:19478",
+                    "name": "\/Resources\/Resource10.js",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Lego\/Public\/Tween\/Tween.js",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "11",
+                    "uid": "1543925759447333:19528",
+                    "name": "\/Resources\/Resource11.js",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Lego\/Public\/Tween\/TweenManager.js",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "12",
+                    "uid": "1543925811485682:19730",
+                    "name": "\/Resources\/Resource12.js",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Scripts\/Util.js",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "13",
+                    "uid": "1543926129252963:19818",
+                    "name": "TitleScreen Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0",
+                    "type": "1",
+                    "subtype": "1"
+                },
+                {
+                    "resId": "14",
+                    "uid": "1543926133525538:19831",
+                    "name": "Orthographic Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0",
+                    "type": "1",
+                    "subtype": "1"
+                },
+                {
+                    "resId": "15",
+                    "uid": "1543926839276987:46813",
+                    "name": "\/Resources\/Resource15.js",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Lego\/Public\/Template\/Scripts\/CamAspect.js",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "16",
+                    "uid": "1543927291959629:58747",
+                    "name": "\/Resources\/Resource16.js",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Scripts\/TitleScreenController.js",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "21",
+                    "uid": "1543929807285172:90417",
+                    "name": "\/Resources\/Resource21",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Resources\/Screens\/TitleScreen\/GrayBackground\/grayBackground.glsl"
+                        ]
+                    },
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "22",
+                    "uid": "1543930121092423:90493",
+                    "name": "\/Resources\/Resource22",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Resources\/Screens\/TitleScreen\/LoaderMaterial\/load.glsl"
+                        ]
+                    },
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "23",
+                    "uid": "1543930217249000:90531",
+                    "name": "\/Resources\/Resource23.png",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Resources\/Screens\/TitleScreen\/Loader.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "25",
+                    "uid": "1543931743471802:144971",
+                    "name": "\/Resources\/Resource25",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "26",
+                    "uid": "1543931761544435:145385",
+                    "name": "\/Resources\/Resource26.png",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Lego\/Public\/Template\/Resources\/Screens\/TitleScreen\/8-8-transparent.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "28",
+                    "uid": "1543932526845802:155446",
+                    "name": "\/Resources\/Resource28",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "29",
+                    "uid": "1543933301089884:157836",
+                    "name": "\/Resources\/Resource29.js",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Scripts\/TitleScreenContentController.js",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "30",
+                    "uid": "1544084778603067:30427",
+                    "name": "\/Resources\/Resource30",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Resources\/Screens\/gaussBlur\/gaussBlurVertPass1\/gaussBlur.glsl"
+                        ]
+                    },
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "31",
+                    "uid": "1544084781619329:30432",
+                    "name": "\/Resources\/Resource31",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Resources\/Screens\/gaussBlur\/gaussBlurHorzPass1\/gaussBlur.glsl"
+                        ]
+                    },
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "37",
+                    "uid": "1544085326794853:32519",
+                    "name": "\/Resources\/Resource37",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "39",
+                    "uid": "1544085397170574:33142",
+                    "name": "\/Resources\/Resource39.png",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/SnappablesTemplate\/Resources\/Screens\/GameScreen\/ReadyToPlay\/ready_english.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "40",
+                    "uid": "1544085674070317:56089",
+                    "name": "\/Resources\/Resource40.png",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/Collage Example [REMOVE_ME]\/Textures\/collage_logo.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "41",
+                    "uid": "1544085686200776:56390",
+                    "name": "\/Resources\/Resource41.png",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/Collage Example [REMOVE_ME]\/Textures\/collage_name.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "42",
+                    "uid": "1544086093048113:58956",
+                    "name": "\/Resources\/Resource42.js",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/Collage Example [REMOVE_ME]\/Scripts\/CollageController.js",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "4",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "44",
+                    "uid": "1544086453619862:72466",
+                    "name": "\/Resources\/Resource44.png",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/Collage Example [REMOVE_ME]\/Textures\/debug_texture.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "45",
+                    "uid": "1544088214499826:95124",
+                    "name": "\/Resources\/Resource45",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            ""
+                        ]
+                    },
+                    "flags": "1",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "46",
+                    "uid": "1544088214502056:95134",
+                    "name": "\/Resources\/Resource46.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "47",
+                    "uid": "1544088214518090:95144",
+                    "name": "\/Resources\/Resource47.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "48",
+                    "uid": "1544088214519800:95154",
+                    "name": "\/Resources\/Resource48.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "49",
+                    "uid": "1544088245909126:95186",
+                    "name": "\/Resources\/Resource49.png",
+                    "sourceFilePath": "C:\/Users\/kigi1\/OneDrive\/Рабочий стол\/Studio for partners\/CollageProject\/Public\/Collage Example [REMOVE_ME]\/Textures\/blank_texture.png",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "51",
+                    "uid": "1544088708783997:128039",
+                    "name": "\/Resources\/Resource51",
+                    "sourceFilePath": "",
+                    "additionalProperties": {
+                        "pass_source": [
+                            "\/Users\/steve.marton\/Snapchat\/Dev\/Studio3D\/Resources\/Studio3DResources.bundle\/shaders\/flat.glsl"
+                        ]
+                    },
+                    "flags": "3",
+                    "type": "2",
+                    "subtype": "0"
+                },
+                {
+                    "resId": "52",
+                    "uid": "1544091432880857:3878",
+                    "name": "\/Resources\/Resource52",
+                    "sourceFilePath": "C:\/Users\/kigi1\/AppData\/Local\/Temp\/Lens Studio Internal-cBTyWU\/animation.t3d",
+                    "additionalProperties": "",
+                    "flags": "1",
+                    "type": "1",
+                    "subtype": "5"
+                }
+            ]
+        },
+        "InspectorComponent": {
+            "Component": {
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1543925671172326:19143",
+                "1": "1543925676210851:19245",
+                "2": "1543925695139102:19350",
+                "3": "1543925714586207:19379",
+                "4": "1543925718722517:19410",
+                "5": "1543926093298485:19809",
+                "6": "1543927248333455:58615",
+                "7": "1543927465348630:68495",
+                "8": "1543927495468841:68498",
+                "9": "1543927517618530:68501",
+                "10": "1543927529915187:68513",
+                "11": "1543927542419701:68516",
+                "12": "1543927559539440:68520",
+                "13": "1543927580722842:68523",
+                "14": "1543927585237113:68526",
+                "15": "1543933102980439:157601",
+                "16": "1543933120669604:157606",
+                "17": "1544086486555359:73118",
+                "18": "1544088394580037:106401",
+                "19": "1544088396708319:106403",
+                "20": "1544088568403834:117196",
+                "21": "1544088581052482:117198",
+                "22": "1544088708749544:128024"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "4",
+            "showOrthographicLayer": "false",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576"
+                },
+                {
+                    "layerId": "2",
+                    "layerName": "TitleScreen",
+                    "layerMask": "2"
+                },
+                {
+                    "layerId": "3",
+                    "layerName": "Orthographic",
+                    "layerMask": "4"
+                }
+            ]
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn"
+        }
+    },
+    "controller": {
+        "ResourceController": {
+            "tree": {
+                "name": "Root",
+                "groups": [
+                    {
+                        "name": "Default",
+                        "groups": "",
+                        "resources": [
+                            {
+                                "name": "Device Camera Texture",
+                                "resourceId": "2",
+                                "extension": ""
+                            },
+                            {
+                                "name": "Camera Output",
+                                "resourceId": "13",
+                                "extension": ""
+                            },
+                            {
+                                "name": "Orthographic Camera Output",
+                                "resourceId": "14",
+                                "extension": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tween",
+                        "groups": "",
+                        "resources": [
+                            {
+                                "name": "Tween",
+                                "resourceId": "10",
+                                "extension": "js"
+                            },
+                            {
+                                "name": "TweenManager",
+                                "resourceId": "11",
+                                "extension": "js"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SnappablesTemplate",
+                        "groups": [
+                            {
+                                "name": "Scripts",
+                                "groups": "",
+                                "resources": [
+                                    {
+                                        "name": "Util",
+                                        "resourceId": "12",
+                                        "extension": "js"
+                                    },
+                                    {
+                                        "name": "CamAspect",
+                                        "resourceId": "15",
+                                        "extension": "js"
+                                    },
+                                    {
+                                        "name": "TitleScreenController",
+                                        "resourceId": "16",
+                                        "extension": "js"
+                                    },
+                                    {
+                                        "name": "TitleScreenContentController",
+                                        "resourceId": "29",
+                                        "extension": "js"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Resources",
+                                "groups": [
+                                    {
+                                        "name": "Screens",
+                                        "groups": [
+                                            {
+                                                "name": "TitleScreen",
+                                                "groups": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "TitleScreen Camera [DO_NOT_EDIT]",
+                                                        "resourceId": "1",
+                                                        "extension": ""
+                                                    },
+                                                    {
+                                                        "name": "grayBackground",
+                                                        "resourceId": "21",
+                                                        "extension": ""
+                                                    },
+                                                    {
+                                                        "name": "LoaderMaterial",
+                                                        "resourceId": "22",
+                                                        "extension": ""
+                                                    },
+                                                    {
+                                                        "name": "Loader",
+                                                        "resourceId": "23",
+                                                        "extension": "png"
+                                                    },
+                                                    {
+                                                        "name": "8-8-transparent",
+                                                        "resourceId": "26",
+                                                        "extension": "png"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "gaussBlur",
+                                                "groups": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "gausBlurVert",
+                                                        "resourceId": "30",
+                                                        "extension": ""
+                                                    },
+                                                    {
+                                                        "name": "gausBlurHorz",
+                                                        "resourceId": "31",
+                                                        "extension": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "GameScreen",
+                                                "groups": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "ready_english",
+                                                        "resourceId": "39",
+                                                        "extension": "png"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "resources": ""
+                                    }
+                                ],
+                                "resources": ""
+                            }
+                        ],
+                        "resources": ""
+                    },
+                    {
+                        "name": "Default Textures",
+                        "groups": "",
+                        "resources": [
+                            {
+                                "name": "Base",
+                                "resourceId": "46",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "MaterialParams",
+                                "resourceId": "47",
+                                "extension": "png"
+                            },
+                            {
+                                "name": "Normal",
+                                "resourceId": "48",
+                                "extension": "png"
+                            }
+                        ]
+                    }
+                ],
+                "resources": [
+                    {
+                        "name": "collage_logo",
+                        "resourceId": "40",
+                        "extension": "png"
+                    },
+                    {
+                        "name": "collage_name",
+                        "resourceId": "41",
+                        "extension": "png"
+                    },
+                    {
+                        "name": "CollageController",
+                        "resourceId": "42",
+                        "extension": "js"
+                    },
+                    {
+                        "name": "debug_texture",
+                        "resourceId": "44",
+                        "extension": "png"
+                    },
+                    {
+                        "name": "Blank Material",
+                        "resourceId": "45",
+                        "extension": ""
+                    },
+                    {
+                        "name": "blank_texture",
+                        "resourceId": "49",
+                        "extension": "png"
+                    },
+                    {
+                        "name": "animation",
+                        "resourceId": "52",
+                        "extension": ""
+                    }
+                ]
+            },
+            "publicAssets": [
+                {
+                    "id": "10",
+                    "path": "Tween\/Tween.js"
+                },
+                {
+                    "id": "11",
+                    "path": "Tween\/TweenManager.js"
+                },
+                {
+                    "id": "12",
+                    "path": "SnappablesTemplate\/Scripts\/Util.js"
+                },
+                {
+                    "id": "15",
+                    "path": "SnappablesTemplate\/Scripts\/CamAspect.js"
+                },
+                {
+                    "id": "16",
+                    "path": "SnappablesTemplate\/Scripts\/TitleScreenController.js"
+                },
+                {
+                    "id": "21",
+                    "path": "SnappablesTemplate\/Resources\/Screens\/TitleScreen\/grayBackground"
+                },
+                {
+                    "id": "22",
+                    "path": "SnappablesTemplate\/Resources\/Screens\/TitleScreen\/LoaderMaterial"
+                },
+                {
+                    "id": "23",
+                    "path": "SnappablesTemplate\/Resources\/Screens\/TitleScreen\/Loader.png"
+                },
+                {
+                    "id": "26",
+                    "path": "SnappablesTemplate\/Resources\/Screens\/TitleScreen\/8-8-transparent.png"
+                },
+                {
+                    "id": "29",
+                    "path": "SnappablesTemplate\/Scripts\/TitleScreenContentController.js"
+                },
+                {
+                    "id": "30",
+                    "path": "SnappablesTemplate\/Resources\/Screens\/gaussBlur\/gausBlurVert"
+                },
+                {
+                    "id": "31",
+                    "path": "SnappablesTemplate\/Resources\/Screens\/gaussBlur\/gausBlurHorz"
+                },
+                {
+                    "id": "39",
+                    "path": "SnappablesTemplate\/Resources\/Screens\/GameScreen\/ready_english.png"
+                },
+                {
+                    "id": "40",
+                    "path": "collage_logo.png"
+                },
+                {
+                    "id": "41",
+                    "path": "collage_name.png"
+                },
+                {
+                    "id": "42",
+                    "path": "CollageController.js"
+                },
+                {
+                    "id": "44",
+                    "path": "debug_texture.png"
+                },
+                {
+                    "id": "45",
+                    "path": "Blank Material"
+                },
+                {
+                    "id": "46",
+                    "path": "Default Textures\/Base.png"
+                },
+                {
+                    "id": "47",
+                    "path": "Default Textures\/MaterialParams.png"
+                },
+                {
+                    "id": "48",
+                    "path": "Default Textures\/Normal.png"
+                },
+                {
+                    "id": "49",
+                    "path": "blank_texture.png"
+                },
+                {
+                    "id": "52",
+                    "path": "animation"
+                }
+            ]
+        },
+        "InspectorController": {
+            "selection": {
+                "objects": [
+                    "1543927559539440:68520"
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "12": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        }
+    }
+}
